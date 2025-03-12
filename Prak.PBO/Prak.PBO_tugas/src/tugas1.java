@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class kegiatan_1 {
+public class tugas1 {
     public static void main(String[] args) {
         int role;
         String username, password;
@@ -33,7 +33,7 @@ public class kegiatan_1 {
                 password = inputPassword.nextLine();
                 if(username.equals("Alif Zaky Nasywa Muhammad") && password.equals("202410370110345")){
                     System.out.println("login mahasiswa berhasi");
-                    System.out.printf("Nama : %s", username);
+                    System.out.printf("Nama : %s \n", username);
                     System.out.printf("NIM  : %s", password);
                 }else{
                     System.out.println("Login gagal! nama atau nim salah");
@@ -42,6 +42,5 @@ public class kegiatan_1 {
             default:
                 System.out.println("Pilihan tidak valid");
         }
-
     }
 }

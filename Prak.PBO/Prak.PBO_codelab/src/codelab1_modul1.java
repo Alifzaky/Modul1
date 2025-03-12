@@ -1,8 +1,6 @@
 import java.time.LocalDateTime;
 import java.util.Scanner;
-
-public class Codelab_1 {
-
+public class codelab1_modul1 {
     public static int hitungUmur(int age){
 
         return LocalDateTime.now().getYear() - age;
@@ -44,5 +42,4 @@ public class Codelab_1 {
         System.out.printf("Umur          : %d tahun\n", hitungUmur(tahunLahir));
 
     }
-
 }
